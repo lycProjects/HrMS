@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+
+  	<default-config>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/hrms?characterEncoding=UTF8</property>
+		<property name="user">root</property>
+		<property name="password">888999</property>
+
+        <!-- 数据库连接池中的最大的数据库连接数 -->
+		<property name="maxPoolSize">200</property>
+		<!-- 数据库连接池中的最小的数据库连接数 -->
+		<property name="minPoolSize">5</property>
+		 <!-- 初始化数据库连接池时连接的数量 -->
+		<property name="initialPoolSize">20</property>
+		<!-- 如果池中数据连接不够时一次增长多少个 -->
+		<property name="acquireIncrement">5</property>
+		<!-- 连接的最大空闲时间 -->
+		<property name="maxIdleTime">6</property>
+	</default-config>
+
+</c3p0-config>
