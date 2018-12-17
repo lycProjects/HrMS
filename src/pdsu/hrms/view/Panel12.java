@@ -229,7 +229,7 @@ public class Panel12 extends JPanel implements ActionListener, ItemListener {
 		cons = new GridBagConstraints();
 		cons.gridx = 1;
 		cons.gridy = 3;
-		cons.gridwidth = 3;
+		cons.gridwidth = 3;   //宽度占3格，左对齐
 		cons.anchor = GridBagConstraints.WEST;
 		cons.insets = new Insets(10, 1, 10, 10);
 		layout.setConstraints(tfOther, cons);

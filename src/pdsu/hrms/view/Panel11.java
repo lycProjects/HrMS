@@ -72,7 +72,7 @@ public class Panel11 extends JPanel implements ActionListener,ItemListener{
 		cons = new GridBagConstraints();
 		cons.gridx = 0;
 		cons.gridy = 0;
-        //把参数和组件关联起来（重点）
+        //把参数和组件关联起来
 		gridBag.setConstraints(lbTitle, cons);
 		
         //组件添加到容器中

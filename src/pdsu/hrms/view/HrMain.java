@@ -223,7 +223,7 @@ public class HrMain extends JFrame implements TreeSelectionListener {
 	}
 
 	public static void main(String[] args) throws Exception {
-        //改变初始时树的节点的图标（从系统获取）
+        //改变初始时树的节点的图标
 		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         //调用方法
 		new HrMain();
