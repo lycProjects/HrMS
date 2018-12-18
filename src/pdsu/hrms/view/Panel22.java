@@ -57,7 +57,7 @@ public class Panel22 extends JPanel{
 		pContent.add(lbTitle);
 		historyDao = new HistoryDaoImpl();
 		String[] colTitle = new String[] {"流水号","姓名","原部门","新部门","变更次数","变更日期"};
-		String[][] colValue = historyDao.getAllByTypes("人员调动");
+		String[][] colValue = historyDao.getAllByType("人员调动");
 		table = new JTable(colValue,colTitle);
 		table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		table.setPreferredScrollableViewportSize(new Dimension(430, 380));
